@@ -1,0 +1,239 @@
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham-Medium';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cl-or {
+    color: #bd945f;
+}
+
+.cl-blue {
+    color: #2c2e53;
+}
+
+
+.container {
+    max-width: 1280px;
+}
+
+header .menu a {
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+}
+
+header .menu ul {
+    height: 100%;
+    align-content: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 1rem 0 1.5rem;
+}
+
+/* header .menu ul li>a{
+    padding: 0;
+} */
+header .menu ul li>a::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 16px;
+    height: 5px;
+    width: 55%;
+    background-color: #bd945f;
+    display: none;
+}
+header .menu ul li:hover>a::after,
+header .menu ul li>a.active::after,
+#banner-giua>h3::after {
+    display: block;
+}
+footer{
+    background-color: #201d1d;
+    width: 1903px;
+    height: 305px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.footer-div{
+    margin-left: 30px;
+}
+.footer-div p, .footer-div p>a{
+    color: #fff;
+}
+.footer-div p.active1 {
+    position: relative; /* Thêm vị trí tương đối cho phần tử cha */
+}
+.footer-div p.active2 {
+    position: relative; /* Thêm vị trí tương đối cho phần tử cha */
+}
+.footer-div p.active3 {
+    position: relative; /* Thêm vị trí tương đối cho phần tử cha */
+}
+.footer-div p.active1::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-30%);
+    height: 5px;
+    width: 85px;
+    background-color: #ffffff;
+    display: block;
+    left: 8.5%;
+}
+.footer-div p.active2::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-15%);
+    height: 5px;
+    width: 85px;
+    background-color: #ffffff;
+    display: block;
+    left: 8.5%;
+}
+.footer-div p.active3::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    height: 5px;
+    width: 85px;
+    background-color: #ffffff;
+    display: block;
+    left: 22.5%;
+}
+.footer-div p.p{
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+.footer-div .p2{
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+.footer-div .p3,.footer-div .p4>a{
+    font-family: 'Gotham-Thin';
+    font-size: 16px;
+    margin: 0;
+}
+.footer-div .p4 {
+    margin: 0;
+}
+.icon-category{
+    display: flex;
+}
+#sn-btw1{
+    background-color: rgb(240, 242, 242);
+    position: relative;
+    width: 100%;
+    height: 51.875rem;
+}
+.bl1{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    position: absolute;
+    left: 17%;
+}
+.bl1>.fp{
+    padding: 30px 15px 15px 15px;
+    color: #bd945f;
+    margin-left: 35px;
+}
+.bl1>.lp{
+    padding: 30px 15px 15px 15px;
+    color: #bd945f;
+}
+.bl1>span, .bl1>p{
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bl2{
+    display: flex;
+    width: 65.3%;
+    height: 675px;
+    position: absolute;
+    left: 17%;
+    top: 10%;
+    background-color: #fff;
+}
+.bl2-1{
+    position: absolute;
+    width: 790px;
+    height: 570px;
+    top: 5%;
+    left: 4%;
+}
+.bl2-1>h2{
+    text-transform: uppercase;
+    font-family: 'Gotham-Ultra';
+    color: #bd945f;
+    margin-bottom: 30px;
+    font-size: 24px ;
+    text-align: justify;
+}
+.bl2-1>.p1{
+    margin-bottom: 15px;
+    font-size: 17.5px;
+    text-align: justify;
+}
+.bl2-1>.p2{
+    margin-bottom: 15px;
+    font-size: 15.5px;
+    text-align: justify;
+}
+.bl2-1>img{
+    margin-top: 15px;
+    width: 790px;
+}
+.bl2-2{
+    position: absolute;
+    width: 338px;
+    height: 480px;
+    top: 6%;
+    left: 73%;
+}
+.bl2-2>h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.bl2-2>h2::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+    left: 10%;
+    height: 4px;
+    width: 69px;
+    background-color: #bd945f;
+    display: block;
+}
+.bl2-2 .item-img-p{
+    display: flex;
+    margin-bottom: 32px;
+}
+.bl2-2 .item-img-p img{
+    margin-right: 30px;
+}
+.bl2-2 .item-img-p p{
+    text-transform: uppercase;
+    width: 155px;
+    font-size: 13px;
+    text-align: justify;
+    color: #4b4c56;
+}

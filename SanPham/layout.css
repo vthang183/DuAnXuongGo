@@ -1,0 +1,296 @@
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham-Medium';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cl-or {
+    color: #bd945f;
+}
+
+.cl-blue {
+    color: #2c2e53;
+}
+
+
+.container {
+    max-width: 1280px;
+}
+
+header .menu a {
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+}
+
+header .menu ul {
+    height: 100%;
+    align-content: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 1rem 0 1.5rem;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+/* header .menu ul li>a{
+    padding: 0;
+} */
+header .menu ul li>a::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 16px;
+    height: 5px;
+    width: 55%;
+    background-color: #bd945f;
+    display: none;
+}
+header .menu ul li:hover>a::after,
+header .menu ul li>a.active::after,
+#banner-giua>h3::after {
+    display: block;
+}
+footer{
+    background-color: #201d1d;
+    height: 305px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.footer-div{
+    margin-left: 30px;
+}
+.footer-div p, .footer-div p>a{
+    color: #fff;
+}
+.footer-div p.active1 {
+    position: relative; /* Thêm vị trí tương đối cho phần tử cha */
+}
+.footer-div p.active2 {
+    position: relative; /* Thêm vị trí tương đối cho phần tử cha */
+}
+.footer-div p.active3 {
+    position: relative; /* Thêm vị trí tương đối cho phần tử cha */
+}
+.footer-div p.active1::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-30%);
+    height: 5px;
+    width: 85px;
+    background-color: #ffffff;
+    display: block;
+    left: 8.5%;
+}
+.footer-div p.active2::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-15%);
+    height: 5px;
+    width: 85px;
+    background-color: #ffffff;
+    display: block;
+    left: 8.5%;
+}
+.footer-div p.active3::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    height: 5px;
+    width: 85px;
+    background-color: #ffffff;
+    display: block;
+    left: 22.5%;
+}
+.footer-div p.p{
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+.footer-div .p2{
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+.footer-div .p3,.footer-div .p4>a{
+    font-family: 'Gotham-Thin';
+    font-size: 16px;
+    margin: 0;
+}
+.footer-div .p4 {
+    margin: 0;
+}
+.icon-category{
+    display: flex;
+}
+
+/* thân */
+.banner-content{
+    position: relative;
+    background-image: url(./AnhCat/banner_bt.jpg);
+    height: 33.75rem;
+}
+.banner-next, .banner-pre{
+    background-color: #a7a4a0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner-next{
+    right: 14%;
+}
+.banner-pre{
+    left: 14%;
+}
+.banner-content>h1{
+    font-family: 'HelGa';
+    font-size: 80px;
+    color: #bd945f;
+    position: absolute;
+    left: 55%;
+    top: 30%;
+}
+.banner-content>h2{
+    position: absolute;
+    left: 60.5%;
+    top: 45%;
+    color: #2c2e53;
+    font-size: 30px;
+    font-family: 'Gotham-Medium';
+}
+.buy-now{
+    height: 55px;
+    width: 185px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 55%;
+    left: 67%;
+    border: none;
+    color: #000;
+    background-color: #fff;
+}
+.banner-page{
+    position: absolute;
+    bottom: 3%;
+    transform: translateX(-50%);
+    display: flex;
+    left: 50%;
+}
+.banner-page> div{
+    background-color: #fff;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.banner-page  div:first-child{
+    background-color: #bd945f;
+}
+
+.body-container{
+    background-color: #a7a4a0;
+    overflow: hidden;
+}
+.body-container .container{
+    background-color: #fff;
+    position: relative;
+}
+.body-container .container:first-child{
+    margin-top: 120px;
+}
+.title{
+    display: flex;
+}
+.section-title{
+    position: absolute;
+    margin-top: 36px;
+    left: 56px;
+    font-family: "Gotham-Ultra";
+    color: #2c2e53;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.view-all{
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 64px;
+    right: 58px;
+}
+.view-all a{
+    color: #a7a4a0;
+}
+.product-list{
+    margin-top: 108px;
+    display: flex;
+    margin-bottom: 68px;
+    overflow: hidden;
+}
+.product-item{
+    margin: 0 30px 50px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+.product-list .product-item:first-child{
+    margin-left: 48px;
+}
+.product-list img{
+    width: 270px;
+    height: 270px;
+
+}
+.product-title{
+    margin-top: 18px;
+    font-family: 'Gotham-Ultra';
+    text-transform: uppercase;
+    color: #2c2e53;
+
+}
+.product-rating {
+    color: #FFD700;
+    font-size: 20px;
+    height: 30px;
+
+}
+.product-price, .product-old-price {
+    color: #555;
+    margin: 0;
+    font-size: 15px;
+}
+
+.section-title::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    height: 8px;
+    width: 160px;
+    background-color: #bd945f;
+    display: none;
+}
+.section-title::after {
+    display: block;
+}

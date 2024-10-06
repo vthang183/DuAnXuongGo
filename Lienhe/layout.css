@@ -1,0 +1,206 @@
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham-Medium';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cl-or {
+    color: #bd945f;
+}
+
+.cl-blue {
+    color: #2c2e53;
+}
+
+
+.container {
+    max-width: 1280px;
+}
+
+header .menu a {
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+}
+
+header .menu ul {
+    height: 100%;
+    align-content: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 1rem 0 1.5rem;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+/* header .menu ul li>a{
+    padding: 0;
+} */
+header .menu ul li>a::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 16px;
+    height: 5px;
+    width: 55%;
+    background-color: #bd945f;
+    display: none;
+}
+header .menu ul li:hover>a::after,
+header .menu ul li>a.active::after,
+#banner-giua>h3::after {
+    display: block;
+}
+footer{
+    background-color: #201d1d;
+    height: 305px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.footer-div{
+    margin-left: 30px;
+}
+.footer-div p, .footer-div p>a{
+    color: #fff;
+}
+.footer-div p.active1 {
+    position: relative; /* Thêm vị trí tương đối cho phần tử cha */
+}
+.footer-div p.active2 {
+    position: relative; /* Thêm vị trí tương đối cho phần tử cha */
+}
+.footer-div p.active3 {
+    position: relative; /* Thêm vị trí tương đối cho phần tử cha */
+}
+.footer-div p.active1::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-30%);
+    height: 5px;
+    width: 85px;
+    background-color: #ffffff;
+    display: block;
+    left: 8.5%;
+}
+.footer-div p.active2::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-15%);
+    height: 5px;
+    width: 85px;
+    background-color: #ffffff;
+    display: block;
+    left: 8.5%;
+}
+.footer-div p.active3::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    height: 5px;
+    width: 85px;
+    background-color: #ffffff;
+    display: block;
+    left: 22.5%;
+}
+.footer-div p.p{
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+.footer-div .p2{
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+.footer-div .p3,.footer-div .p4>a{
+    font-family: 'Gotham-Thin';
+    font-size: 16px;
+    margin: 0;
+}
+.footer-div .p4 {
+    margin: 0;
+}
+.icon-category{
+    display: flex;
+}
+.banner-page{
+    background-image: url(./AnhCat/banner.jpg);
+    height: 470px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-page>img{
+    margin-top: 0; /* Không cần margin nếu dùng flexbox để căn giữa */
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước khung */
+}
+.banner-page h1{
+    color: white; /* Thay đổi màu chữ tùy ý */
+    text-align: center;
+    margin-top: 20px; /* Khoảng cách giữa ảnh và chữ */
+    font-family: "Gotham-Ultra";
+}
+.contact{
+    height: 645px;
+    background-color: #a7a4a0;  
+    position: relative;  
+}
+.info-contact{
+    background-color: #fff;
+    width: 1280px;
+    height: 645px;
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+.info-contact div{
+    flex: 1;
+
+}
+.image-section{
+    height: 428px;
+    width: 428px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.form-section{
+    margin-top: 100px;
+}
+.form-section h2{
+    font-family: "Gotham-Ultra";
+    color: #bd945f;
+    margin-bottom: 35px;
+}
+.form-section input{
+    width: 535px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #bd945f;
+    font-size: 16px;
+}
+.form-section button{
+    width: 130px;
+    height: 58px;
+    background-color: #bd945f;
+    border: none;
+    color: #fff;
+}

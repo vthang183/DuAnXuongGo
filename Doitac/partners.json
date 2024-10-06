@@ -1,0 +1,35 @@
+{
+    "partners": [
+      {
+        "partner_id": 1,
+        "name": "Công ty cổ phần Vinpearl",
+        "description": "Vinpearl là thương hiệu dịch vụ du lịch nghỉ dưỡng - giải trí lớn nhất Việt Nam. Vinpearl sở hữu chuỗi khách sạn, resort và trung tâm hội nghị đẳng cấp 5 sao, các khu vui chơi giải trí quốc tế tọa lạc tại những danh thắng du lịch nổi tiếng nhất của Việt Nam.",
+        "image": "./AnhCat/vinpearl copy.png"
+      },
+      {
+        "partner_id": 2,
+        "name": "Tập đoàn khách sạn Mường Thanh",
+        "description": "Tại Mường Thanh, chúng tôi mời bạn cùng khởi hành chuyến đi tìm về không gian thanh thản chứa đựng những nét văn hóa mang đậm tinh thần bản sắc Việt, nơi con người gắn kết và thân ái gửi trao nhau tình cảm chân thành.",
+        "image": "./AnhCat/muong-thanh copy.png"
+      },
+      {
+        "partner_id": 3,
+        "name": "Sheraton Hanoi Hotel",
+        "description": "Situated on the shores of Hanoi's West Lake and surrounded by its many local attractions. Sheraton Hanoi Hotel is just a quick drive to the bustling downtown of Hanoi City. Explore the nearby Old Quarter, home to Hoan Kiem Lake, Hanoi Opera House and exceptional boutiques.",
+        "image": "./AnhCat/sheraton copy.png"
+      },
+      {
+        "partner_id": 4,
+        "name": "The Coffee House",
+        "description": "Tại The Coffee House, chúng tôi luôn trân trọng những câu chuyện và đề cao giá trị Kết nối con người. Chúng tôi mong muốn The Coffee House sẽ trở thành 'Nhà Cà Phê', nơi mọi người xích lại gần nhau và tìm thấy niềm vui, sự sẻ chia thân tình bên những tách cà phê đượm hương, chất lượng.",
+        "image": "./AnhCat/the-coffee-house copy.png"
+      },
+      {
+        "partner_id": 5,
+        "name": "Marvella Hotel Nha Trang",
+        "description": "Marvella một thương hiệu khách sạn 4 sao mới xây dựng theo phong cách cổ điển.",
+        "image": "./AnhCat/marvella copy.png"
+      }
+    ]
+  }
+  

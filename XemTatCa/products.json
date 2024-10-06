@@ -1,0 +1,118 @@
+{
+  "categories": [
+    {
+      "category_id": 1,
+      "name": "Phòng khách",
+      "products": [
+        {
+          "product_id": 1,
+          "name": "Bàn uống nước",
+          "rating": "★★★★★",
+          "price": "6,999,000 VND",
+          "old_price": "8,599,000 VND",
+          "image": "./AnhCat/PK1.jpg"
+        },
+        {
+          "product_id": 2,
+          "name": "Bàn uống nước 2",
+          "rating": "★★★★☆",
+          "price": "5,399,000 VND",
+          "old_price": "6,599,000 VND",
+          "image": "./AnhCat/PK2.jpg"
+        },
+        {
+          "product_id": 3,
+          "name": "Kệ TV",
+          "rating": "★★★★☆",
+          "price": "12,399,000 VND",
+          "old_price": "14,000,000 VND",
+          "image": "./AnhCat/PK3.jpg"
+        },
+        {
+          "product_id": 4,
+          "name": "Kệ để đồ",
+          "rating": "★★★★★",
+          "price": "2,999,000 VND",
+          "old_price": "4,200,000 VND",
+          "image": "./AnhCat/PK4.jpg"
+        }
+      ]
+    },
+    {
+      "category_id": 2,
+      "name": "Phòng ngủ",
+      "products": [
+    {
+      "id": 1,
+      "name": "Bàn uống nước",
+      "image": "./AnhCat/PK1.jpg",
+      "rating": 5,
+      "price": 6999000,
+      "old_price": 8599000
+    },
+    {
+      "id": 2,
+      "name": "Bàn uống nước 2",
+      "image": "./AnhCat/PK2.jpg",
+      "rating": 4,
+      "price": 5399000,
+      "old_price": 6599000
+    },
+    {
+      "id": 3,
+      "name": "Kệ TV",
+      "image": "./AnhCat/PK3.jpg",
+      "rating": 4,
+      "price": 12399000,
+      "old_price": 14000000
+    },
+    {
+      "id": 4,
+      "name": "Kệ để đồ",
+      "image": "./AnhCat/PK4.jpg",
+      "rating": 5,
+      "price": 2999000,
+      "old_price": 4200000
+    }
+  ]
+    },
+    {
+      "category_id": 3,
+      "name": "Phòng bếp",
+      "products": [
+    {
+      "id": 1,
+      "name": "Bàn uống nước",
+      "image": "./AnhCat/PK1.jpg",
+      "rating": 5,
+      "price": 6999000,
+      "old_price": 8599000
+    },
+    {
+      "id": 2,
+      "name": "Bàn uống nước 2",
+      "image": "./AnhCat/PK2.jpg",
+      "rating": 4,
+      "price": 5399000,
+      "old_price": 6599000
+    },
+    {
+      "id": 3,
+      "name": "Kệ TV",
+      "image": "./AnhCat/PK3.jpg",
+      "rating": 4,
+      "price": 12399000,
+      "old_price": 14000000
+    },
+    {
+      "id": 4,
+      "name": "Kệ để đồ",
+      "image": "./AnhCat/PK4.jpg",
+      "rating": 5,
+      "price": 2999000,
+      "old_price": 4200000
+    }
+  ]
+    }
+  ]
+}
